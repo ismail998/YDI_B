@@ -3,7 +3,10 @@ package com.ismailblegacem.ydi_b;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.DownloadManager;
+import android.content.ClipData;
+import android.content.ClipboardManager;
 import android.content.Context;
+import android.content.Intent;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
@@ -45,6 +48,8 @@ public class Home extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        //developer ismail belgacem
+        //my instagram adev_ismail
         inputUrl = findViewById(R.id.urlYoutube);
         mainLayout= findViewById(R.id.main_layout);
         mainProgressBar = findViewById(R.id.prgrBar);
